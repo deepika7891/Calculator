@@ -1,0 +1,44 @@
+.container-fluid{
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.cal-box{
+     /* height: 65%; */
+     background-image: linear-gradient(to right,#e7546c,#dddd54);
+     /* width: 35%; */
+     border-radius: 10px;
+     padding: 20px;
+
+}
+form .display{
+   display: flex;
+   justify-content: flex-end;
+   margin: 5px 0px 15px 0px ;
+}
+form input{
+  height: 60px;
+  border: none;
+  outline: 0;
+  width: 60px;
+  font-size: 16px;
+  background-color: rgb(226, 15, 15);
+  margin: 2px;
+  border-radius: 10px;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+form .equal{
+  width: 120px;
+}
+form .display input{
+  text-align: right;
+  flex: 1;
+  font-size: 40px;
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+}
